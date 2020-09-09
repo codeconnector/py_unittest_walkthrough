@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+""" Core routines for funprog """
+
+from funprog import utils
