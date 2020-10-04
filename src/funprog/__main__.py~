@@ -1,8 +1,0 @@
-#!/usr/bin/env python3
-
-from funprog import utils, core
-
-def main():
-    """ Main Routine """
-    args = utils.get_args()
-    
