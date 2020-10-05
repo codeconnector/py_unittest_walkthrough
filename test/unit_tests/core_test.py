@@ -3,6 +3,7 @@
 import unittest
 import funprog.core as core
 
+
 class Core(unittest.TestCase):
     def setUp(self):
         """ This is where you define any inputs to code """
@@ -13,6 +14,7 @@ class Core(unittest.TestCase):
 
     def tearDown(self):
         pass
+
 
 if __name__ == "__main__":
     unittest.main()

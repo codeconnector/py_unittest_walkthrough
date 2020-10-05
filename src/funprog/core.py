@@ -3,6 +3,7 @@
 
 from funprog import utils
 
+
 def return_a_sentence_from_number(number):
     """ Returns a sentence given a number as an integer
     Args:

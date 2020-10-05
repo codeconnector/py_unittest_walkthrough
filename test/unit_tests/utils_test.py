@@ -3,6 +3,7 @@
 import unittest
 import funprog.utils as utils
 
+
 class Utilities(unittest.TestCase):
     def setUp(self):
         """ This is where you define any inputs to code """
@@ -25,6 +26,6 @@ class Utilities(unittest.TestCase):
     def tearDown(self):
         pass
 
+
 if __name__ == "__main__":
     unittest.main()
-    

@@ -7,6 +7,7 @@ import argparse
 
 from funprog import __version__
 
+
 def get_args():
     """ Get args
     Args: None
@@ -21,6 +22,7 @@ def get_args():
     args = parser.parse_args()
     return args
 
+
 def number_plus_four(number):
     """ Adds a number to 4
     Args:
@@ -30,6 +32,7 @@ def number_plus_four(number):
     """
     return number + 4
 
+
 def convert_number_to_str(number):
     """ Converts a number to a string
     Args:
@@ -38,6 +41,7 @@ def convert_number_to_str(number):
         number (str): the number as a string
     """
     return str(number)
+
 
 def insert_into_sentence(number):
     """ Inserts a number into the sentence
@@ -51,5 +55,3 @@ def insert_into_sentence(number):
     except:
         number = str(number)
     return "The shepherd had %s sheep" %number
-
-                        
