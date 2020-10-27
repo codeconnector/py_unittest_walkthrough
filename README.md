@@ -14,11 +14,11 @@ There are several walk-throughs available for python unit testing, each addressi
 The structure of this repo has subdirectories containing a simple example of unit testing for a python program. Currently, the following walk-throughs are available:
 
  - getting_started
+ - class_testing
 
 The following are planned by the end of October:
 
  - argparse_testing
- - class_testing
 
 If you would like to contribute a new set of test cases for a program this is welcome! Please take the following steps when doing so:
 
